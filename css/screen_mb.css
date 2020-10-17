@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/*------------------------------------------------------------------------------------*/
+/* formata��o das regi�es */
+/*------------------------------------------------------------------------------------*/
+	body {
+		background-color: rgb(71, 47, 138);
+		color: rgb(182, 214, 38);
+		width: 400px;
+		/* margin: 0px auto 0px auto; */
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+		}
+
+	div#landingpage {
+		background-color: #1E3C58;
+		padding: 5px;
+		}
+	div#landingpage2 {
+		background-color: #F7F8F9;
+		padding: 5px;
+		}
+
+	div#formulario {
+		/* display: flex; */
+		/* width: 500px;  */
+		/* margin-left: auto; */
+		/* margin-right: auto; */
+		padding: 5px;
+		border: 10px solid #CECECE;
+		background-color:  #CECECE;
+		border-radius: 10px;
+		}
+		
+/*------------------------------------------------------------------------------------*/
+/* Formata��o de Imagens*/
+/*------------------------------------------------------------------------------------*/	
+figure.foto-simples {
+		margin-left: auto;
+		margin-right: auto;
+		}
+	figure.foto-simples img {
+		width: 100%;
+		height: 100%;
+		}
+/*------------------------------------------------------------------------------------*/
+/* Formata��o de imagens com legendas   */
+/*------------------------------------------------------------------------------------*/
+	figure.foto-legenda {
+		text-align: center;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: white;
+		width: 300px;
+		height: 300px;
+		border: 0px solid white;
+		box-shadow: 1px 1px 5px #808080;
+		}
+
+	figure.foto-legenda img {
+		width: 100%;
+		height: 100%;
+		}
+
+	figure.foto-legenda figcaption {
+		opacity: 0;
+		text-align: center;
+		position: absolute;
+		top: 75%;
+		background-color: rgba(0,0,0,.4);
+		color: #ffffff;
+		padding: 10px;
+		width: 100%;
+		height: 25%;
+		transition: opacity 1.5s;
+		}
+
+	figure.foto-legenda:hover figcaption {
+		opacity: 1;
+		
+		}
+		
+		
+/*//////////////////////////////////////////////////////////////////////////////////*/
+/* Flex */
+/*//////////////////////////////////////////////////////////////////////////////////*/	
+
+/* .flex { */
+	/* display: flex; */
+/* } */
+
+/* .flex-wrap { */
+	/* flex-wrap: wrap; */
+/* } */
+
+/* .flex-item-1 { */
+	/* flex: 1; */
+/* } */
+
+/*//////////////////////////////////////////////////////////////////////////////////*/
+/* Flex Item */
+/*//////////////////////////////////////////////////////////////////////////////////*/
+/* .item { */
+	/* margin: 10px; */
+	/* background: #1E3C58; */
+	/* font-size: 1em; */
+/* } */
+
+/* .container { */
+	/* max-width: 850px; */
+	/* margin: 0 auto; */
+/* } */
+
+/* .body { */
+	/* font-family: monospace; */
+	/* color: #333; */
+/* } */
+
+/*//////////////////////////////////////////////////////////////////////////////////*/
+/* Flex2 */
+/*//////////////////////////////////////////////////////////////////////////////////*/
+
+/* .flex2 { */
+  /* background-color: #F7F8F9; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* max-width: 900px; */
+  /* margin: 0 auto; */
+/* } */
+/* .flex2 > div { */
+  /* flex: 2 1 400px; */
+  /* margin: 10px; */
+/* } */
