@@ -7,16 +7,16 @@
 		color: rgb(182, 214, 38);
 		width: 900px;
 		margin: 0px auto 0px auto;
-		padding: 5px;
+		padding: 2px;
 		}
 
 	div#landingpage {
 		background-color: #1E3C58;
-		padding: 5px;
+		padding: 2px;
 		}
 	div#landingpage2 {
 		background-color: #F7F8F9;
-		padding: 5px;
+		padding: 2px;
 		}
 	div#fotosimples {
 		display: normal;
@@ -26,7 +26,7 @@
 	div#formulario {
 		display: relative;
 		width: 400px;
-		padding: 5px;
+		padding: 2px;
 		border: 5px solid #CECECE;
 		background-color:  #CECECE;
 		border-radius: 10px;
