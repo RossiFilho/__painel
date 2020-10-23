@@ -5,7 +5,7 @@ body
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     min-height: 100vh;
     background: #031321;
     font-family: consolas;
