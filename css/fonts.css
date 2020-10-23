@@ -6,7 +6,7 @@
 a:link, a:visited, a:active {
     font-family: Arial;
     text-align: left;
-    font-size: 15pt;
+    font-size: 12pt;
     text-decoration: none;
     color: rgb(233, 187, 36);
     }
@@ -14,7 +14,7 @@ a:link, a:visited, a:active {
 a:hover {
     font-family: Arial;
     text-align: left;
-    font-size: 15pt;
+    font-size: 12pt;
     text-decoration: underline; 
     color:#f00;
     }
@@ -39,7 +39,7 @@ h1{
 h2{
     font-family: Arial;
     text-align: center;
-    font-size: 25pt;
+    font-size: 20pt;
     color:  #ffffff;
     background-color:  #1E3C58;
     }
