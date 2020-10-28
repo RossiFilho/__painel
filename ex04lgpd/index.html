@@ -1,24 +1,36 @@
-﻿<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 0px)" href="./lgpd.css">
+    <title>Document</title>
 <script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#000"
-    },
-    "button": {
-      "background": "#FFC601",
-      "text": "#000000",
-      "border": "#FFC601"
-    }
-  },
-  "position": "bottom-left",
-    "content": {
-    "message": "Usamos cookies para garantir que você obtenha a melhor experiência no nosso site.",
-    "dismiss": "Entendi!",
-    "link":"Leia Mais.",
-      "href": "https://www.plattenplaner.de/datenschutz"
-      }
-})});
+        if (localStorage.cookies) {
+		document.getElementsByClassName("banner-lgpd")[0].classList.add("accept");
+	};
+
+	var acceptCookies = function() {
+		document.getElementsByClassName("banner-lgpd")[0].classList.add("accept");
+		localStorage.setItem("cookies", "accept");
+	};
+
+	var btnCookies = document.getElementsByClassName("banner-lgpd__accept")[0];
+	btnCookies.onclick = acceptCookies;
+
 </script>
+
+</head>
+<body>
+    <div class="banner-lgpd banner-lgpd__container">
+        <div class="banner-lgpd__column">
+          <p>
+            Utilizamos cookies e tecnologias semelhantes para melhorar sua experiência de navegação. Ao continuar navegando você concorda com a nossa <a href="https://www.ameyoficial.com.br/ajuda/privacidade-e-seguranca" target="_blank">Política de Privacidade e Cookies</a>. 
+          </p>
+        </div>
+        <div class="banner-lgpd__column">
+          <button class="banner-lgpd__accept">Aceitar</button>
+        </div>
+      </div>
+</body>
+</html>
