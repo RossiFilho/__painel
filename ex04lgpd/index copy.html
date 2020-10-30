@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 0px)" href="./lgpd.css">
+    <title>Document</title>
+<script>
+        if (localStorage.cookies) {
+		document.getElementsByClassName("banner-lgpd")[0].classList.add("accept");
+	};
+
+	var acceptCookies = function() {
+		document.getElementsByClassName("banner-lgpd")[0].classList.add("accept");
+		localStorage.setItem("cookies", "accept");
+	};
+
+	var btnCookies = document.getElementsByClassName("banner-lgpd__accept")[0];
+	btnCookies.onclick = acceptCookies;
+
+</script>
+
+</head>
+<body>
+    <div class="banner-lgpd banner-lgpd__container">
+        <div class="banner-lgpd__column">
+          <p>
+            Utilizamos cookies e tecnologias semelhantes para melhorar sua experiência de navegação. Ao continuar navegando você concorda com a nossa <a href="https://www.ameyoficial.com.br/ajuda/privacidade-e-seguranca" target="_blank">Política de Privacidade e Cookies</a>. 
+          </p>
+        </div>
+        <div class="banner-lgpd__column">
+          <button class="banner-lgpd__accept">Aceitar</button>
+        </div>
+      </div>
+</body>
+</html>
