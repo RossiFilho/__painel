@@ -9,16 +9,16 @@
 		/* margin: 0px auto 0px auto; */
 		margin-left: auto;
 		margin-right: auto;
-		padding: 5px;
+		padding: 2px;
 		}
 
 	div#landingpage {
 		background-color: #1E3C58;
-		padding: 5px;
+		padding: 2px;
 		}
 	div#landingpage2 {
 		background-color: #F7F8F9;
-		padding: 5px;
+		padding: 2px;
 		}
 
 	div#formulario {
@@ -26,10 +26,10 @@
 		/* width: 500px;  */
 		/* margin-left: auto; */
 		/* margin-right: auto; */
-		padding: 5px;
+		padding: 2px;
 		border: 10px solid #CECECE;
 		background-color:  #CECECE;
-		border-radius: 10px;
+		border-radius: 5px;
 		}
 		
 /*------------------------------------------------------------------------------------*/
